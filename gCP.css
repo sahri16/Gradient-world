@@ -163,3 +163,55 @@ h6 {
   font-size: 1.2rem;
   color: #ffffff;
 }
+@media screen and (min-width: 370px) {
+  .logo img {
+    margin-top: -20px;
+    margin-left: 70px;
+    height: 17vh;
+    width: 30vw;
+    padding: 100px 10px;
+    font-size: 2.7rem;
+}
+.navtext h1{
+  width: 60vw;
+  padding: 120px 10px;
+  font-size: 2.7rem;
+}
+    .hading h1 {
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    text-align: center;
+    color: #fff;
+    }
+  .btn {
+    width: vw;
+    margin-bottom: 45px;
+}
+  h2 {
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    color: #fff;
+
+
+    }
+    .copycode {
+    font-family: "Space Mono", monospace;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    line-height: 2.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #fff;
+    background-color: rgba(189, 189, 189, 0.1);
+    padding: 15px 8px 15px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    .ortinationText {
+    width: 120%;
+    margin-top: 95%;
+    
+}
+}
