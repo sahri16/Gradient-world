@@ -28,7 +28,6 @@ section {
   height: 40vh;
   width: 50vw;
   margin: 90px auto;
-  display: grid;
   justify-items: center;
   align-content: center;
   align-content: space-evenly;
@@ -38,6 +37,7 @@ section {
   font-family: sans-serif;
   font-size: 2.5rem;
   color: #fff;
+  text-align: center;
 }
 /* .arrow-icon {
   width: 35vw;
@@ -156,10 +156,29 @@ h6 {
 .ortinationText ul {
   display: flex;
   justify-content: space-between;
-  /* background-color: #000000; */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
 .ortinationText ul li {
   list-style: none;
   font-size: 1.2rem;
   color: #ffffff;
+  position: relative; /* Make `li` positioned for pseudo-element */
+  padding-right: 10px; 
 }
+.ortinationText ul li::after {
+  content: ""; /* Empty content for the vertical line */
+position: absolute;
+margin-left: 6px;/* Place the line at the end of the text */
+height: 1.5em; /* Make the line taller (adjust as needed) */
+width: 2px; /* Thickness of the vertical line */
+background-color: #ffffff; /* Line color */
+vertical-align: middle
+}
+
+.ortinationText ul li:last-child::after {
+  content: ""; 
+  width: 0;
+}
+
+
