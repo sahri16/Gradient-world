@@ -131,7 +131,7 @@ h2 {
   content: "";
   position: absolute;
   left: 50%;
-  top: 100%;
+  top: 90%;
   transform: translateX(-50%);
   border-width: 20px;
   border-style: solid;
@@ -151,13 +151,13 @@ h6 {
 .ortinationText {
   width: 90%;
   margin-top: 15px;
-  /* margin-left:15px ; */
+
 }
 .ortinationText ul {
   display: flex;
   justify-content: space-between;
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  padding: 0; 
+  margin: 0; 
 }
 .ortinationText ul li {
   list-style: none;
@@ -169,10 +169,10 @@ h6 {
 .ortinationText ul li::after {
   content: ""; /* Empty content for the vertical line */
 position: absolute;
-margin-left: 6px;/* Place the line at the end of the text */
-height: 1.5em; /* Make the line taller (adjust as needed) */
-width: 2px; /* Thickness of the vertical line */
-background-color: #ffffff; /* Line color */
+margin-left: 6px;
+height: 1.5em; 
+width: 2px; 
+background-color: #ffffff;
 vertical-align: middle
 }
 

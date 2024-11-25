@@ -1,97 +1,237 @@
-@media (max-width: 600px) {
-    .logo img {
-      width: 100%;
-      height: 20vh;
-      margin-top: 0px;
-      margin-left: 0px;
-    }
-    .navtext h1 {
-      font-size: 1.5rem;
-      padding: 53px 0px;
-    }
-    .hading h1 {
-      font-size: 1.7rem;
-      text-align: center;
-      margin-bottom: 35px;
-    }
-    section {
-      margin: 80px 13px 1px 13px;
-      width: 90%;
-      display: grid;
-      justify-items: center;
-      align-content: center;
-      align-content: space-evenly;
-    }
-    .btn {
-      /* width: 80%; */
-      width: 50%;
-      margin-bottom: 45px;
-      margin-left: 35px;
-    }
-    .myBtn1 {
-      padding: 15px 30px;
-      font-size: 1.2rem;
-    }
-    .myBtn2 {
-      padding: 15px 30px;
-      /* margin-left: 50px; 
-      margin-top: 30px; */
-      margin-left: 0px;
-      margin-top: 20px;
-    }
-    #tooltiptext {
-      padding: 8px 30px;
-      left: 76%;
-      text-align: center;
-    }
-  
-    .ortinationText ul li {
-      font-size: 0.6rem;
-    }
-  
-    .ortinationText {
-      width: 90%;
-      margin-top: 15px;
-    }
-  
-    .ortinationText ul {
-      display: flex;
-      justify-content: space-between; /* Distribute items equally */
-      padding: 0; /* Remove default padding */
-      margin: 0; /* Remove default margin */
-    }
-  
-    .ortinationText ul li {
-      list-style: none; /* Remove default bullet points */
-      font-size: 0.6rem;
-      color: #ffffff;
-      position: relative; /* Make `li` positioned for pseudo-element */
-      padding-right: 10px;
-      /* display: flex;
-      align-items: center; */
-    }
-    .ortinationText ul li::after{
-      margin-left: 20px;
-    }
+@media (min-width: 320px){
+  .logo img {
+    width: 30vw;
+    height: 20vh;
+    margin-top: 0px;
+    margin-left: 0px;
   }
+  .navtext h1 {
+    margin-top: 20px;
+    padding: 25px 0px;
+  font-size: 1.2rem;
+  }
+  .hading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 35px;
+  }
+  section {
+    width: 90%;
+    justify-items: center;
+    align-content: center;
+    align-content: space-evenly;
+  }
+  .btn {
+    width: 45%;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .myBtn1 {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+  }
+  .myBtn2 {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+h2{
+  font-size: 0.9rem;
+  margin-top: -15px;
+}
+  .copycode {
+    /* margin-top: 20px; */
+    width: 80%;
+    line-height: 1.1;
+  }
+  #tooltiptext {
+    padding: 8px 10px;
+    left: 80%;
+    text-align: center;
+    top: 54%;
+    font-size: 0.8rem;
+  }
+  h6{
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+  .ortinationText {
+    width: 90%;
+ 
+  }
+
+  .ortinationText ul {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  .ortinationText ul li {
+    list-style: none; /* Remove default bullet points */
+    font-size: 0.6rem;
+    color: #ffffff;
+    position: relative; /* Make `li` positioned for pseudo-element */
+    padding-right: 10px;
   
-  @media (min-width: 601px) and (max-width: 1024px) {
+  }
+  .ortinationText ul li::after {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .logo img {
+    height: 30vh;
+    width: 29vw;
+  }
+  .navtext h1 {
+    font-size: 1.4rem;
+    margin-top: 45px;
+
+  }
+  .hading h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  section {
+    margin: 80px 53px 1px 53px;
+    width: 90%;
+    justify-items: center;
+    align-content: center;
+    align-content: space-evenly;
+  }
+  .btn {
+    width: 60%;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .myBtn1 {
+    padding: 15px 30px;
+  }
+  .myBtn2 {
+    padding: 15px 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  h2{
+    font-size: 0.9rem;
+    margin-top: -30px;
+  }
+  .copycode {
+    width: 50%;
+  }
+  #tooltiptext {
+    left: 70%;
+    top: 58%;
+  }
+
+  .ortinationText ul li {
+    font-size: 1rem;
+  }
+
+  .ortinationText {
+    width: 60%;
+    /* margin-top: 35px; */
+  }
+  .ortinationText ul li {
+    font-size: 0.9rem;
+  }
+  .ortinationText ul li::after {
+    margin-left: 8px;
+    height: 1.2em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .logo img {
+    height: 28vh;
+    width: 20vw;
+  }
+  .navtext h1 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+  }
+  .hading h1 {
+    font-size: 2.4rem;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  section {
+    margin: 60px 53px 1px 53px;
+    width: 90%;
+    justify-items: center;
+    align-content: center;
+    align-content: space-evenly;
+  }
+  .btn {
+    width: 60%;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .myBtn1 {
+    padding: 15px 30px;
+  }
+  .myBtn2 {
+    padding: 15px 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  h2 {
+    font-size: 1rem;
+}
+  .copycode {
+    width: 50%;
+    line-height: 2.1;
+    margin-top: 20px;
+  }
+  #tooltiptext {
+    left: 70%;
+    top: 56%;
+  }
+  h6 {
+    font-size: 1rem;
+    margin-top: 35px;
+}
+
+  .ortinationText {
+    width: 60%;
+    margin-top: 20px;
+  }
+  .ortinationText ul li {
+    font-size: 1rem;
+  }
+  .ortinationText ul li::after {
+    margin-left: 20px;
+  }
+}
+  /* @media (max-width: 1440px) {
     .logo img {
-      width: 20vw;
-      height: 25vh;
-      margin-top: -20px;
-      margin-left: 50px;
+      height: 30vh;
+      width: 24vw;
     }
     .navtext h1 {
-      font-size: 1.5rem;
-      padding: 53px 0px;
+      font-size: 2rem;
+      margin-top: 110px;
     }
     .hading h1 {
-      font-size: 2.4rem;
+      font-size: 2.9rem;
       margin-bottom: 60px;
+      margin-top: 110px;
     }
     section {
-      margin: 80px 13px 1px 13px;
+      margin: 80px 53px 1px 53px;
       width: 90%;
       justify-items: center;
       align-content: center;
@@ -100,101 +240,46 @@
     .btn {
       width: 60%;
       margin-bottom: 65px;
-      margin-left: 35px;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      flex-direction: row;
     }
     .myBtn1 {
       padding: 15px 30px;
-      font-size: 1.2rem;
     }
     .myBtn2 {
       padding: 15px 30px;
       margin-left: 0px;
+      margin-top: 0px;
     }
-    .copycode{
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 25px;
+  }
+    .copycode {
       width: 50%;
+      line-height: 2;
+      margin-top: 20px;
+      font-size: 1.3rem;
     }
     #tooltiptext {
-      left: 67%;
-      top: 52%;
+      left: 70%;
+      top: 53%;
     }
-  
-    .ortinationText ul li {
-      font-size: 0.6rem;
-    }
+    h6 {
+      font-size: 1.5rem;
+      margin-top: 35px;
+  }
   
     .ortinationText {
       width: 60%;
-      margin-top: 35px;
+      margin-top: 20px;
     }
     .ortinationText ul li {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
-    .ortinationText ul li::after{
-      margin-left: 36px;
+    .ortinationText ul li::after {
+      margin-left: 20px;
     }
-  }
-  
-  
-  @media (min-width: 1024px) and (max-width: 1366px) {
-      .logo img {
-        height: 30vh;
-      width: 20vw;
-  
-      }
-      .navtext h1 {
-        font-size: 1.8rem;
-        padding: 64px 0px
-      }
-      .hading h1 {
-        font-size: 2.4rem;
-        margin-bottom: 60px;
-      }
-      section {
-        margin: 80px 53px 1px 53px;
-        width: 90%;
-        justify-items: center;
-        align-content: center;
-        align-content: space-evenly;
-      }
-      .btn {
-        width: 60%;
-        margin-bottom: 65px;
-        margin-left: 35px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-      .myBtn1 {
-        padding: 15px 30px;
-        font-size: 1.2rem;
-      }
-      .myBtn2 {
-        padding: 15px 30px;
-        margin-left: 0px;
-      }
-      .copycode{
-        width: 50%;
-      }
-      #tooltiptext {
-        left: 67%;
-        top: 52%;
-      }
-    
-      .ortinationText ul li {
-        font-size: 0.6rem;
-      }
-    
-      .ortinationText {
-        width: 60%;
-        margin-top: 35px;
-      }
-      .ortinationText ul li {
-        font-size: 0.9rem;
-      }
-      .ortinationText ul li::after{
-        margin-left: 36px;
-      }
-    }
+} */
