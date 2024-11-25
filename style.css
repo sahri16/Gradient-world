@@ -180,5 +180,12 @@ vertical-align: middle
   content: ""; 
   width: 0;
 }
-
-
+.footer-text{
+  margin-top: 260px;
+    color: white;
+    font-family: sans-serif;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
